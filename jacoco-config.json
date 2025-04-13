@@ -1,0 +1,23 @@
+{
+  "jacoco": {
+    "agentJar": "jacocoagent.jar",
+    "destFile": "jacoco.exec",
+    "port": 6300,
+    "includes": [
+      "*"
+    ],
+    "excludes": [
+    ],
+    "classDir": "/Users/divyanshusingh/IdeaProjects/spring/target/classes",
+    "sourceDir": "/Users/divyanshusingh/IdeaProjects/spring/src/main/java",
+    "reportDir": "jacoco-report"
+  },
+  "service": {
+    "jar": "your-service-1.0-SNAPSHOT.jar"
+  },
+  "sonar": {
+    "enabled": true,
+    "scannerPath": "sonar-scanner",
+    "projectProperties": "sonar-project.properties"
+  }
+}
